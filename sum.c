@@ -4,7 +4,7 @@
 #define SIZE 1600000000
 #define THREADS 16
 
-int main(int argc, char *argv[]) {
+int main() {
   long sum = 0;
   for (int i = 0; i <= SIZE; i++) {
     sum += i;

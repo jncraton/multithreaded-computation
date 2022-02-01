@@ -1,5 +1,5 @@
-Fast Math
-=========
+Multithreaded Computation
+=========================
 
 This program demonstrates the performance improvements that are possible using multithreading.
 
@@ -28,7 +28,9 @@ This version completes in 18 seconds.
 
 A simple single-threaded C solution (`single.c`) is provided. This version should run much faster (~3.4 seconds on my system).
 
-This program should be modified to perform the calculation using a selectable number of `THREADS` set by adjusting the value on line 5. If you are running the program on a system with a sufficient number of cores available, you should be able to see a significant speedup roughly proportional to the number of concurrent threads that can be processed. 
+This program should be modified to perform the calculation using a selectable number of `THREADS` set by adjusting the value on line 5. If you are running the program on a system with a sufficient number of cores available, you should be able to see a significant speedup roughly proportional to the number of concurrent threads that can be processed.
+
+You should not need any additional `#include` directives. It is expected that this program can be implemented using `pthreads`.
 
 Mathematical Note
 -----------------

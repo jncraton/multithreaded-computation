@@ -6,7 +6,7 @@
 
 int main() {
   long sum = 0;
-  for (int i = 0; i <= SIZE; i++) {
+  for (long i = 0; i <= SIZE; i++) {
     sum += i;
   }
 

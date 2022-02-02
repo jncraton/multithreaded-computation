@@ -32,6 +32,12 @@ This program should be modified to perform the calculation using a selectable nu
 
 You should not need any additional `#include` directives. It is expected that this program can be implemented using `pthreads`.
 
+Suggested library functions
+---------------------------
+
+- `pthread_create` - Create a new thread of execution
+- `pthread_join` - Wait for a thread to terminate and capture its return value
+
 Mathematical Note
 -----------------
 

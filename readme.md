@@ -14,7 +14,7 @@ for i in range(0, 1600000001):
 print(total)
 ```
 
-This program takes approximately 105 seconds to run on my system and correctly outputs 1279999999200000000.
+This program takes approximately 105 seconds to run on my system and correctly outputs 1280000000800000000.
 
 A more Pythonic version might be:
 

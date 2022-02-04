@@ -1,14 +1,14 @@
 Multithreaded Computation
 =========================
 
-This lab demonstrates the performance improvements that are possible using multithreading. The task is to print the sum of all numbers between 0 and 1.6 billion exclusive.
+This lab demonstrates the performance improvements that are possible using multithreading. The task is to print the sum of all numbers between 0 and 1.6 billion.
 
 A simple Python program to perform this task would be:
 
 ```python
 total = 0
 
-for i in range(0, 1600000000):
+for i in range(0, 1600000001):
     total += i
 
 print(total)
@@ -19,7 +19,7 @@ This program takes approximately 105 seconds to run on my system and correctly o
 A more Pythonic version might be:
 
 ```python
-print(sum(range(0, 160000000)))
+print(sum(range(0, 160000001)))
 ```
 
 This version completes in 18 seconds.
@@ -42,7 +42,7 @@ Mathematical Note
 A keen mathematician may note that this program is computationally excessive, as it could be replaced with the following using the formula for [Triangle Numbers](https://en.wikipedia.org/wiki/Triangular_number).
 
 ```
-print(((1600000000-1)*1600000000) / 2)
+print(((1600000000)*1600000001) / 2)
 ```
 
 That is an appropriate observation. The purpose of this lab is merely to perform computation in multiple threads, so a trivial example problem has been chosen.

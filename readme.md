@@ -33,8 +33,8 @@ You should not need any additional `#include` directives. It is expected that th
 Suggested library functions
 ---------------------------
 
-- `pthread_create` - Create a new thread of execution
-- `pthread_join` - Wait for a thread to terminate and capture its return value
+- [`pthread_create`](https://linux.die.net/man/3/pthread_create) - Create a new thread of execution
+- [`pthread_join`](https://linux.die.net/man/3/pthread_join) - Wait for a thread to terminate and capture its return value
 
 Mathematical Note
 -----------------
